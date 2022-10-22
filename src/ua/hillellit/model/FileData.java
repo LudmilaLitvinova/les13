@@ -1,7 +1,7 @@
 package ua.hillellit.model;
 
 import java.io.File;
-import java.util.Comparator;
+
 
 public class FileData {
 

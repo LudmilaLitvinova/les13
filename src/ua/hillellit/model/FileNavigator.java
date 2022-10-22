@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 
 public class FileNavigator {
 
-  Map<String, List<FileData>> listMap = new HashMap<>();
+  public Map<String, List<FileData>> listMap = new HashMap<>();
 
   public void add(String path) {
     FileData file = new FileData(path);

@@ -6,6 +6,6 @@ public class SizeComparator implements Comparator<FileData> {
 
   @Override
   public int compare(FileData o1, FileData o2) {
-    return (int)(o1.size- o2.size);
+    return (int)(o1.getSize() - o2.getSize());
   }
 }
